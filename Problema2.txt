@@ -1,0 +1,13 @@
+INICIO
+
+    LEER nivelDeJuego
+
+    SI nivelDeJuego === 1 ENTONCES
+        ESCRIBE "Aprendiz"
+    SI ES nivelDeJuego === 10 ENTONCES
+        ESCRIBE "Acrobata"
+    SINO nivelDeJuego ===20 ENTONCES
+        ESCRIBE "Ninja"
+    FIN-SI
+
+FIN

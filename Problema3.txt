@@ -1,0 +1,13 @@
+INICIO
+    LEER NOMBRE
+    LEER CONTRASEÑA
+
+    minombre = "Yun"
+    miPass = "123"
+
+    SI minombre === "Yun" && miPass === "123" ENTONCES
+        ESCRIBE "Se abre el refrigerador"
+    SINO
+        ESCRIBE "No se abre el refrigerador"
+    FIN-SI
+FIN

@@ -1,0 +1,10 @@
+INICIO
+    LEER promedioExamenes
+
+    SI promedioExamenes > 8.5 ENTONCES
+    ESCRIBE "Recibirás un premio"
+    SINO
+        ESCRIBE "Te van a castigar"
+    FIN-SI
+
+FIN

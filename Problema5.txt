@@ -1,0 +1,16 @@
+INICIO
+    LEER dia
+    lunes = "Clase de historia"
+    martes = "Natacion"
+    miercoles = "Clase de Historia"
+    jueves = "Esgrima"
+    viernes = "Descanso"
+    sabado = "Descanso"
+    domingo = "Descanso"
+
+    SI dia === miercoles ENTONCES
+        ESCRIBE "Tienes clases de historia"
+    SI ES dia == sabado ENTONCES
+        ESCRIBE "Descansas
+    FIN-SI
+FIN
